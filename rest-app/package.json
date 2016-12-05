@@ -1,0 +1,33 @@
+{
+  "name": "rest-app",
+  "version": "0.1.0",
+  "description": "hackAXA Dev Summit #2",
+  "private": true,
+  "author": {
+    "name": "Lorenz Hängg",
+    "email": "lorenz.haenggi@axa-winterthur.ch",
+    "url": "https://github.com/lolo8304"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "url": "https://github.com/lolo8304/AXADevSummit-2.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "mongodb": "~2.2.5",
+    "monk": "~3.1.1",
+    "express-cors": "~0.0.3",
+    
+    "morgan": "~1.7.0",
+    "mongo-morgan" : "~2.0.1",
+
+    "swagger-node-express": "~2.1.3",
+    "minimist": "~1.2.0"
+  }
+}
